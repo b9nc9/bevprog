@@ -57,6 +57,7 @@ int main(){
         
         cout << endl;
         sort(values.begin(), values.end());
+        cout << "Sum of values:" << sum << "m\n";
         cout << "Largest value entered: " << largest << "m\n";
         cout << "Smallest value entered: " << smallest << "m\n";
         cout << "Number of values entered: " << values.size() << "\n";
