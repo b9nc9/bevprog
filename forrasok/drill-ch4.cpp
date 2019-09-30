@@ -35,12 +35,10 @@ int main(){
         
         cout << "(value, unit): ";
         while(cin >> n >> unit){
-                //Read(n, unit);
                 if(existingUnit(unit)){
                 double converted = {Convert(n, unit)};
                 sum += converted;
                 values.push_back(converted);
-
                 if(converted > largest ){
                         cout << converted << "m the largest so far\n";
                         largest = converted;
