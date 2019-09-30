@@ -8,6 +8,11 @@
 
 ## 2019.09.25.
 - ch4
-- ch4 drillek 1-4 (3-4 után jár a pont)
+- ch3, ch4 drill
 - változók cseréje különbséggel, szorzással, xorral
 - 76 pont könyvelve
+
+## 2019.09.30.
+- ch5
+- ch5 drill
+- 111 pont könyvelve
