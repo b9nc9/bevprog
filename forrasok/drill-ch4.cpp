@@ -36,19 +36,19 @@ int main(){
         cout << "(value, unit): ";
         while(cin >> n >> unit){
                 if(existingUnit(unit)){
-                double converted = {Convert(n, unit)};
-                sum += converted;
-                values.push_back(converted);
-                if(converted > largest ){
-                        cout << converted << "m the largest so far\n";
-                        largest = converted;
-                }
-                else if(converted  < smallest){
-                        cout << converted << "m the smallest so far\n";
-                        smallest = converted;
-                }
-                else{ cout << n << "\n"; }
-                }
+                        double converted = {Convert(n, unit)};
+                        sum += converted;
+                        values.push_back(converted);
+                        if(converted > largest ){
+                                cout << converted << "m the largest so far\n";
+                                largest = converted;
+                        }
+                        else if(converted  < smallest){
+                                cout << converted << "m the smallest so far\n";
+                                smallest = converted;
+                        }
+                        else{ cout << n << "\n"; }
+                        }
                 else{
                         cout << "Couldn't handle the given unit! Try it again with another one, please!\n";
                 }
