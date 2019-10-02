@@ -12,7 +12,7 @@
 | Példák/Labor/2/Változók cseréje/xorral       |     x      |                 6 |
 | Példák/Labor/2/Változók cseréje/szorzattal   |     x      |                 6 |
 | Példák/Labor/2/szóhossz shifteléssel         |            |                 4 |
-| Példák/Labor/3/Labdapattogás if nélkül/C++   |            |                12 |
+| Példák/Labor/3/Labdapattogás if nélkül/C++   |     x      |                12 |
 | Könyv/Fejezet/5                              |     x      |                10 |
 | Köny/Drill/5                                 |     x      |                25 |
 | Példák/Labor/4/PageRank/C                    |            |                 4 |

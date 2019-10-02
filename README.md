@@ -16,3 +16,8 @@
 - ch5
 - ch5 drill
 - 111 pont könyvelve
+
+## 2019.10.02.
+
+- labdapattogás if-nélkül (C++)
+- 123 pont könyvelve
