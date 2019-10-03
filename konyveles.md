@@ -11,7 +11,7 @@
 | Példák/Labor/2/Változók cseréje/különbséggel |     x      |                 4 |
 | Példák/Labor/2/Változók cseréje/xorral       |     x      |                 6 |
 | Példák/Labor/2/Változók cseréje/szorzattal   |     x      |                 6 |
-| Példák/Labor/2/szóhossz shifteléssel         |            |                 4 |
+| Példák/Labor/2/szóhossz shifteléssel         |     x      |                 4 |
 | Példák/Labor/3/Labdapattogás if nélkül/C++   |     x      |                12 |
 | Könyv/Fejezet/5                              |     x      |                10 |
 | Köny/Drill/5                                 |     x      |                25 |

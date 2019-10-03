@@ -21,3 +21,8 @@
 
 - labdapattogás if-nélkül (C++)
 - 123 pont könyvelve
+
+## 2019.10.03.
+
+- szóhossz shifteléssel
+- 127 pont könyvelve
