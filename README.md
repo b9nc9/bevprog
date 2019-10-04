@@ -26,3 +26,9 @@
 
 - szóhossz shifteléssel
 - 127 pont könyvelve
+
+## 2019.10.04.
+
+- ch6
+- ch6 drill
+- 169 pont könyvelve

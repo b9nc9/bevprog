@@ -18,8 +18,8 @@
 | Példák/Labor/4/PageRank/C                    |            |                 4 |
 | Példák/Labor/4/PageRank/vectorral            |            |                 7 |
 | Példák/Labor/4/PageRank/iterátorral          |            |                 9 |
-|                                              |            |                   |
-|                                              |            |                   |
+| Köny/Fejezet/6                               |     x      |                12 |
+| Köny/Drill/6                                 |     x      |                30 |
 |                                              |            |                   |
 |                                              |            |                   |
 |                                              |            |                   |
