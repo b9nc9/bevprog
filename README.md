@@ -32,3 +32,14 @@
 - ch6
 - ch6 drill
 - 169 pont könyvelve
+
+## 2019.11.11.
+
+- ch7
+- ch7 drill
+- ch8
+- ch8 drill
+- Példák/Labor/8/LZW\ binfás\ védés\ programja/operator (már órán)
+- ch9
+- ch9 drill
+- 325 pont könyvelve
