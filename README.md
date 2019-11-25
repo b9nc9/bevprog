@@ -42,4 +42,12 @@
 - Példák/Labor/8/LZW\ binfás\ védés\ programja/operator (már órán)
 - ch9
 - ch9 drill
-- 325 pont könyvelve
+- 352 pont könyvelve
+
+## 2019.11.25.
+
+- ch17 + drill
+- ch18 + drill
+- ch19 + drill
+- Laboron a konstruktorok futásának vizsgálata
+- 1174 pont könyvelve

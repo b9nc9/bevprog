@@ -28,12 +28,13 @@
 | Példák/Labor/8/LZW\ binfás\ védés\ programja/operator |     x      |                15 |
 | Köny/Fejezet/9                                        |     x      |                18 |
 | Köny/Drill/9                                          |     x      |                45 |
-| Köny/Fejezet/17                                       |            |                90 |
-| Köny/Fejezet/18                                       |            |               105 |
-| Köny/Fejezet/19                                       |            |               120 |
-| Köny/Drill/17                                         |            |               150 |
-| Köny/Drill/18                                         |            |               165 |
-| Köny/Drill/19                                         |            |               180 |
+| Köny/Fejezet/17                                       |     x      |                90 |
+| Köny/Fejezet/18                                       |     x      |               105 |
+| Köny/Fejezet/19                                       |     x      |               120 |
+| Köny/Drill/17                                         |     x      |               150 |
+| Köny/Drill/18                                         |     x      |               165 |
+| Köny/Drill/19                                         |     x      |               180 |
+| Labor: binfa konstruktor                              |     x      |             12(?) |
 |                                                       |            |                   |
 |                                                       |            |                   |
 |                                                       |            |                   |
@@ -97,5 +98,3 @@
 |                                                       |            |                   |
 |                                                       |            |                   |
 |                                                       |            |                   |
-|                                                       |            |                   |
-
