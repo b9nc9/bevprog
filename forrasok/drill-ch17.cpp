@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <cmath>
 
 using namespace std;
 
@@ -60,46 +59,48 @@ int main(){
 
         // Part 2
         // 1-2      
-        int a = 7;
-        int* p1 = &a;
+        int* p1 = new int{7};
         cout << *p1 << endl << p1 << endl;
+        delete p1;
 
         // 3-4
-        int* t4 = new int[7];
+        int sq = 1;
+        int* p2 = new int[7];
         for(int i = 0; i < 7; i++){
-                t4[i] = pow(2,i);
+                p2[i] = sq;
+                sq *= 2;
         }
-
-        int* p2 = t4;
         cout << *p2 << endl << p2 << endl;
 
         // 5-9
-        int* p3 = p2;
+        int* p3{p2};
         p1 = p2;
         p3 = p2;
         cout << *p1 << endl << p1 << endl;
         cout << *p2 << endl << p2 << endl;
-        delete[] t4;
+        delete[] p2;
         
         //10-13
-        int* t5 = new int[10];
+        sq = 1;
+        p1 = new int[10];
         for(int i = 0; i < 10; i++){
-                t5[i] = pow(2,i);
+                p1[i] = sq;
+                sq *= 2;
         }
-        p1 = t5;
-        int* t6 = new int[10];
-        p2 = t6;
+        p2 = new int[10];
 
         for(int i = 0; i < 10; i++){
                 p2[i] = p1[i];
         }
-        delete[] t5;
-        delete[] t6;
-
+        delete[] p1;
+        delete[] p2;
+        
+        sq = 1;
         vector<int> v2, v3;
         for(int i = 0; i < 10; i++){
-                v2.push_back(pow(2,i));
-                v3.push_back(pow(2,i));
+                v2.push_back(sq);
+                v3.push_back(sq);
+                sq *= 2;
         }
 
         p1 = &v2[0];
