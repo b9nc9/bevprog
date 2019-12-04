@@ -35,8 +35,8 @@
 | Köny/Drill/18                                         |     x      |               165 |
 | Köny/Drill/19                                         |     x      |               180 |
 | Labor: binfa konstruktor                              |     x      |             12(?) |
-|                                                       |            |                   |
-|                                                       |            |                   |
+| Védés                                                 |     x      |               100 |
+| EXOR titkosítás visszafejtése (betűkből álló kulcs)   |     x      |                40 |
 |                                                       |            |                   |
 |                                                       |            |                   |
 |                                                       |            |                   |

@@ -51,3 +51,9 @@
 - ch19 + drill
 - Laboron a konstruktorok futásának vizsgálata
 - 1174 pont könyvelve
+
+## 2019.12.04.
+
+- Védés - jeles
+- EXOR titkosítás karakterekből álló kulcsának visszafejtése
+- 1314 pont könyvelve 

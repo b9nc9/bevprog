@@ -98,15 +98,17 @@ public:
             gyoker.ujNullasGyermek(masol(masik.gyoker.nullasGyermek()));
             fa = &gyoker;
     }
-    LZWBinFa & operator= (const LZWBinFa& masik){
+    LZWBinFa& operator= (const LZWBinFa& masik){
+            if(this == &masik) return *this;
             szabadit (gyoker.egyesGyermek ());
             szabadit (gyoker.nullasGyermek ());
             gyoker.ujEgyesGyermek(masol(masik.gyoker.egyesGyermek()));
             gyoker.ujNullasGyermek(masol(masik.gyoker.nullasGyermek()));
             fa = &gyoker;
+            return *this;
     }
 
-       
+
 
     /* Tagfüggvényként túlterheljük a << operátort, ezzel a célunk, hogy felkeltsük a
      hallgató érdeklődését, mert ekkor így nyomhatjuk a fába az inputot: binFa << b; ahol a b
@@ -287,7 +289,7 @@ private:
     int melyseg, atlagosszeg, atlagdb;
     double szorasosszeg;
     // szokásosan: nocopyable
-    
+
     /* Kiírja a csomópontot az os csatornára. A rekurzió kapcsán lásd a korábbi K&R-es utalást... */
     void kiir (Csomopont * elem, std::ostream & os)
     {
@@ -306,7 +308,7 @@ private:
         }
     }
 
-    
+
 
     Csomopont* masol(const Csomopont* elem){
             Csomopont* uj = nullptr;
@@ -582,7 +584,6 @@ main (int argc, char *argv[])
                 binFa << '0';
             b <<= 1;
         }
-
     }
 
     //std::cout << binFa.kiir (); // így rajzolt ki a fát a korábbi verziókban de, hogy izgalmasabb legyen
